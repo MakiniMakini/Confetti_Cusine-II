@@ -1,0 +1,15 @@
+<div class="container justify-content-center border border-primary">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <div class="m-3">
+                <%subscribers.forEach(s =>{%>
+                    <p>Name: <%=s.name%></p>
+                    <p>Email: <%=s.email%></p>
+                    <p>zipCode: <%=s.zipCode%></p>
+                <%});%>
+            </div>
+        </div>
+        <div class="col-3"></div>
+    </div>
+</div>

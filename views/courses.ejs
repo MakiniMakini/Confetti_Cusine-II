@@ -1,0 +1,24 @@
+<section class="pt-5">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+       <div class="container">
+           <div class="row">
+             <div class="col-md-6">
+                  <img class="img-fluid" src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+             </div>
+             <div class="col-md-6 pl-5 mt-5">
+                 <div>
+                 <h1>Learn a new cooking skill</h1>
+                <% offeredCourse.forEach(course => { %>
+                   <h5> <%=course.title%> </h5>
+                   <span>$ <%=course.cost%> </span>
+                <% }) %>
+                 </div>
+             </div>
+           </div>
+       </div>
+      </div>
+      <div class="col-2"></div>
+    </div>
+    </section>
